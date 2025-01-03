@@ -6,8 +6,8 @@ namespace BinaryStruct;
 public static class Utils
 {
     public static string ToHex(this byte[] bytes) => string.Concat(bytes.Select(b => b.ToString("x2")));
-    
-    static string FormatBytes(byte[] data)
+
+    private static string FormatBytes(byte[] data)
     {
         StringBuilder builder = new StringBuilder();
 
