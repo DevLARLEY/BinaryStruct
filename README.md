@@ -2,11 +2,17 @@
 Declarative data structures that allow for binary parsing and building. \
 Heavily based on the base functions of the python construct library.
 
+# Installing
+```
+dotnet add package BinaryStruct
+```
+
 # Examples
 
 ## General Usage
 
 ```csharp
+using BinaryStruct;
 using static BinaryStruct.ParserBuilder;
 
 var example = new Struct(
