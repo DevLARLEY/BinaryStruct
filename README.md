@@ -1,5 +1,5 @@
 # BinaryStruct
-Declarative data structures that allow for binary parsing and building
+Declarative data structures that allow for binary parsing and building. \
 Heavily based on the base functions of the python construct library.
 
 # Examples
@@ -150,7 +150,7 @@ private static readonly Struct Record = new(
     {
         1 => Child(string.Empty, SubStruct1),
         2 => Child(string.Empty, SubStruct2),
-        _ => Child(string.Empty, () => Record!) // References itself
+        _ => Child(string.Empty, () => Record!) // References itself (must be a lambda)
     })
 );
 ```
