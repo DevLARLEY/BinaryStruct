@@ -29,7 +29,7 @@ var result = example.Parse(new byte[] { ... });
  *      { "size", (ushort)16 },
  *      { "data", new byte[] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 } },
  *      { "count", (byte)4 },
- *      { "items", new List<object>{ 1, 2, 3, 4 },
+ *      { "items", new List<object>{ (ushort)1, (ushort)2, (ushort)3, (ushort)4 },
  *  }
  */
 
